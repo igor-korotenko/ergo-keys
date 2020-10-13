@@ -1,5 +1,4 @@
 ![Image of Yaktocat](doc/ergokeys-qwerty.png)
-*[source for QWERTY](http://www.keyboard-layout-editor.com/#/gists/a8580928ecd9d38a04dded8eb23be192)*
 Action                        | QWERTY | Dvorak
 ------------------------------|--------|-------
 EditorLeft                    |   J    |   H
