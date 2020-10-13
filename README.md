@@ -1,63 +1,47 @@
 ![Image of Yaktocat](doc/ergokeys-qwerty.png)
-Action                        | QWERTY | Dvorak
-------------------------------|--------|-------
-EditorLeft                    |   J    |   H
-EditorRight                   |   L    |   N
-EditorUp                      |   I    |   C
-EditorDown                    |   K    |   T
-EditorPreviousWord            |   U    |   G
-EditorNextWord                |   O    |   R
-StartOfLineOrParagraph        |   H    |   D
-EndOfLineOrParagraph          |   ;    |   S
-NextSplitter                  |   ,    |   W
-Find                          |   N    |   B
-GotoDeclaration               |   /    |   Z
-EditorCut                     |   X    |   Q
-EditorCopy                    |   C    |   J
-EditorPaste                   |   V    |   K
-AutoIndentLines               |   Q    |   '
-EditorDeleteToWordStart       |   E    |   .
-EditorDeleteToWordEnd         |   R    |   P
-EditorToggleStickySelection   |   T    |   Y
-$Undo                         |   Y    |   F
-GotoAction                    |   A    |   A
-EditorEnter                   |   S    |   O
-EditorBackSpace               |   D    |   E
-InsertMode                    |   F    |   U
-EditorSelectWord              |   1    |   1
-EditorSelectLine              |   2    |   2
-UnsplitAll                    |   3    |   3
-SplitVertically               |   4    |   4
-$Delete                       |   5    |   5
-EditorSelectLine              |   7    |   7
-EditorSelectWord              |   8    |   8
-SelectString                  |   9    |   9
-DeleteCurrentCodeBlock        |   G    |   I
-EditorToggleCase              |   B    |   X
-HippieCompletion              |   [    |   /
-ActivateInsertModeSpaceBefore |   P    |   L
-CommentByLineComment          |   Z    |   ;
-EditorTab                     |  TAB   |  TAB
-NextTemplateVariable          |  TAB   |  TAB
-ExpandLiveTemplateByTab       |  TAB   |  TAB
-NextParameter                 |  TAB   |  TAB
-BraceOrQuoteOut               |  TAB   |  TAB
-EditorIndentSelection         |  TAB   |  TAB
-EditorChooseLookupItemReplace |  TAB   |  TAB
-EditorChooseLookupItem        |  TAB   |  TAB
-EditorEnter                   | ENTER  | ENTER
-EditorChooseLookupItem        | ENTER  | ENTER
-EditorEscape                  | ESCAPE     | ESCAPE
-EditorBackSpace               | BACK_SPACE | BACK_SPACE
-Back                          | L + J      |  L + H
-Forward                       | L + L      |  L + N
-GotoImplementation            | L + /      |  L + Z
-FindInPath                    | L + N      |  L + B
-Switcher                      | L + ,      |  L + W
-FileStructurePopup            | L + P      |  L + L
-EditorTextStart               | L + H      |  L + D
-EditorTextEnd                 | L + ;      |  L + S
-VcsShowPrevChangeMarker       | L + U      |  L + G
-VcsShowNextChangeMarker       | L + O      |  L + R
-SelectNextOccurrence          | L + 8      |  L + 8
-ShowIntentionActions          | L + ENTER  |  L + ENTER
+Action                        | Key   | Action  | Key  
+------------------------------|-------|---------|-------
+EditorLeft                    |   J   | Back    | L + J
+EditorRight                   |   L   | Forward | L + L  
+EditorUp                      |   I   |FileStructurePopup       | L + P 
+EditorDown                    |   K    
+EditorPreviousWord            |   U   
+EditorNextWord                |   O   
+StartOfLineOrParagraph        |   H   | EditorTextStart         | L + H 
+EndOfLineOrParagraph          |   ;   | EditorTextEnd           | L + ; 
+NextSplitter                  |   ,   | Switcher                | L + ,
+Find                          |   N   | FindInPath              | L + N    
+GotoDeclaration               |   /   | GotoImplementation      | L + / 
+EditorCut                     |   X    
+EditorCopy                    |   C    
+EditorPaste                   |   V    
+AutoIndentLines               |   Q   | VcsShowPrevChangeMarker | L + U 
+EditorDeleteToWordStart       |   E   | VcsShowNextChangeMarker | L + O 
+EditorDeleteToWordEnd         |   R    
+EditorToggleStickySelection   |   T    
+$Undo                         |   Y    
+GotoAction                    |   A    
+EditorEnter                   |   S    
+EditorBackSpace               |   D    
+InsertMode                    |   F    
+EditorSelectWord              |   1    
+EditorSelectLine              |   2    
+UnsplitAll                    |   3    
+SplitVertically               |   4    
+$Delete                       |   5    
+EditorSelectLine              |   7    
+EditorSelectWord              |   8   | SelectNextOccurrence          | L + 8  
+SelectString                  |   9    
+DeleteCurrentCodeBlock        |   G    
+EditorToggleCase              |   B    
+HippieCompletion              |   [   
+ActivateInsertModeSpaceBefore |   P   
+CommentByLineComment          |   Z   
+BraceOrQuoteOut               |  TAB  
+EditorIndentSelection         |  TAB  
+EditorChooseLookupItemReplace |  TAB  
+EditorChooseLookupItem        |  TAB  
+EditorEnter                   | ENTER | ShowIntentionActions          | L + ENTER
+EditorChooseLookupItem        | ENTER 
+EditorEscape                  | ESCAPE
+EditorBackSpace               | BACK_SPACE 
