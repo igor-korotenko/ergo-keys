@@ -38,10 +38,4 @@ HippieCompletion              |   [
 ActivateInsertModeSpaceBefore |   P   
 CommentByLineComment          |   Z   
 BraceOrQuoteOut               |  TAB  
-EditorIndentSelection         |  TAB  
-EditorChooseLookupItemReplace |  TAB  
-EditorChooseLookupItem        |  TAB  
 EditorEnter                   | ENTER | ShowIntentionActions          | L + ENTER
-EditorChooseLookupItem        | ENTER 
-EditorEscape                  | ESCAPE
-EditorBackSpace               | BACK_SPACE 
