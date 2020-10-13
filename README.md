@@ -1,24 +1,5 @@
-ErgoKeys
-========
-
-A modal keybinding for IntelliJ family of IDEs (like vim), but based on command frequency and ergonomics.
-Inspired by [xah-fly-keys](https://github.com/xahlee/xah-fly-keys), independently implemented as a plugin for IntelliJ.
-
-    Shift-Space  activate "Command Mode"
-    Alt-Space    activate "Command Mode"
-    F (qwerty)   activate "Insert Mode"
-    U (dvorak)   activate "Insert Mode"
-
-**QWERTY**
 ![Image of Yaktocat](doc/ergokeys-qwerty.png)
 *[source for QWERTY](http://www.keyboard-layout-editor.com/#/gists/a8580928ecd9d38a04dded8eb23be192)*
-
-**Dvorak**
-![Image of Yaktocat](doc/ergokeys-dvorak.png)
-*[source for Dvorak](http://www.keyboard-layout-editor.com/#/gists/79024072711c13021d73ba30117bf79b)*
-
-## Key Bindings
-
 Action                        | QWERTY | Dvorak
 ------------------------------|--------|-------
 EditorLeft                    |   J    |   H
